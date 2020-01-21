@@ -3,22 +3,22 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: CHAO SHU WEI
+    name: SHU-WEI CHAO
     tagline: Full Stack Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hinatanofan@gmail.com
     phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
+    website: hinata-hn.github.io/online-cv/ #do not add http://
+    #linkedin: alandoe
+    github: Hinata-HN
+    gitlab: Hinata-HN
+    bitbucket: HinataHN
 
     languages:
       - idiom: English
