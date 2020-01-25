@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: hinatanofan@gmail.com
-    phone: 0926188XXX
+    #phone: 0926188XXX
     website: hinata-hn.github.io/online-cv/ #do not add http://
     #linkedin: alandoe
     github: Hinata-HN
@@ -42,14 +42,12 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: 簡介
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      職涯中參與的開發案，從消費性電子產品、數據收集分析、付款交易、和後端服務，都是圍繞在
+      "使人更便捷"的目的上。而這也是我對自己工作上的期許和目標 – "拉近人與科技的距離"。
+      科技除了幫助人在工作和日常生活中更方便，也更要容易使用和操作。期望今後能在其他
+      各種不停領域、產業，以不同的面向和方式，繼續利用科技來幫助不同需求的人。
 education:
     - degree: MSc in Computer Science
       university: Tatung University
@@ -74,43 +72,79 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 資深軟體專案工程師
+      time: 2018 - Present
+      company: 宏碁智通 (acer ITS)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - 泊酷智慧停車平台  
+          開發項目
+            + 停車場繳費機悠遊卡付費功能。
+            + 後台折扣優惠系統。
+            + 後台管理設備(閘門)系統。
+        - 第三方支付整合  
+          整合不同第三方支付，以單一QR code方式提供消費者更簡潔的付款方式。
+          支援支付方式有：LINE Pay、Pi拍錢包、街口支付、停車大聲公支付和Google Pay。
+    - role: 資深軟體專案工程師
+      time: 2011 - 2018
+      company: 宏碁 (acer)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Acer Nidus軟體開發  
+          為acer在其所有android裝置上預載的app，透過在android framework上修改和新增
+          的功能，該app可收集各種系統資訊(kernel log, log info)、錯誤異常報告和使用者回饋。
+          之後會將收集的資訊回傳給Nidus雲端服務，統計和整理系統和軟體發生的錯誤和異常。
+          此外，Acer Nidus也具有silent update功能，並協助更新其他內部軟體(in-house apps)和系統功能。
+        - Nidus雲端服務開發  
+          負責接收Acer Nidus所收集回傳的資料，於Google app engine上開發。
+          將收集回來的資訊自動分析整理和統計，最後產生結果報告提供PM和相關人員參考。
+          而錯誤異常的相關資訊則會將issue直接自動開啟，並分配給各功能負責人。
+        - android google mobile services (gms)  
+          負責分析並處理gms相關的issue，並回報給Google。
+        - Acer Analytics API  
+          提供android apps將資料上傳至acer雲端平台的library。apps開發者能夠針對用戶的使用行為做資料收集，
+          並透過該library將收集來的資料上傳至網路。
+        - Acer DADA  
+          企業行動應用程式管理(Mobile application management - MAM)的服務。透過雲端平台讓企業主管理公司
+          內部的android裝置。
+          + [新聞](https://hinatanofan.s3-ap-northeast-1.amazonaws.com/resume/ACERDADA.jpg "新聞稿"){:target="_blank"}  
+          + [DM](https://hinatanofan.s3-ap-northeast-1.amazonaws.com/resume/%E5%8F%B0%E7%81%A3_%E7%B9%81%E4%B8%ADAcer+DADA%E4%BB%8B%E7%B4%B9_P_Acer+DADA+%E6%9C%8D%E5%8B%99-%E5%8D%B0%E5%88%B7.pdf "DM"){:target="_blank"}
+        - Acer User Experience Improvement Program  
+          收集使用者操作行為和裝置上程序的狀態，並透過這些資訊分析，提供未來新產品規劃的參考和方向。
+          以及建立使用者操作預測模型，以雲端服務方式回饋給加入該計畫的使用者，提升使用者的使用經驗。。
+        - 大數據dashoard平台整合  
+          串聯Hadoop和ELK Stack平台，使數據處理和數據視覺化的流程更方便。
+        - 服務型機器人開發 (2017 - 2018)
+          + Mixbot調酒機器人  
+            「2018 Future Commerce Awards創新商務獎」最佳技術創新獎(銀獎)和最佳體驗創新獎(銀獎)。  
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/gwuBvExJuFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            開發項目：  
+            + 後台設定與原物料、菜單管理系統。
+            + 機械手臂與後台控制整合(proxy)。
+            + 卡片感應點餐功能。
+            + 語音點餐串接。
+          + Brewbot咖啡機器人  
+            與湛盧咖啡店合作的商業化實驗咖啡店。  
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/jazhYcp2ktE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            開發項目：
+            + 後台設定與原物料、菜單管理系統。
+            + 機械手臂與後台控制整合(proxy)。
+            + 悠遊卡小額支付。
+            + 發票設備串接。
+    - role: 軟體工程師
+      time: 2009 - 2011
+      company: 愛而發 (alvaview)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - 互動式網路多媒體平台 (Web Bravo)  
+          網路上收看電視、收聽廣播，並與其他用戶即時互動的網站。
+        - 嵌入式平台的網路設定  
+          跑步機運動平台上的多媒體網路電視、收音機。
+        - Windows Mobile播放器 (iiPlayer)  
+          適用於Windows Mobile 6作業系統的多媒體播放器上，加入並整合網路電視和收音機的功能。
+        - 車載用網路電視和收音機  
+          適用於車載裝置上的網路電視和收音機軟體。
+        - P2P網路電視盒  
+          支援P2P傳輸的多媒體網路電視盒。
+        - 網路電視和收音機應用程式軟體 (iBravo)  
+          適用於一般PC上使用的網路電視和收音機應用程式。
 projects:
     title: Projects
     intro: >
