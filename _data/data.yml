@@ -85,6 +85,11 @@ experiences:
         - 第三方支付整合  
           整合不同第三方支付，以單一QR code方式提供消費者更簡潔的付款方式。
           支援支付方式有：LINE Pay、Pi拍錢包、街口支付、停車大聲公支付和Google Pay。
+          <div class="highlight">
+            <pre class="highlight">
+          <a href="https://youtu.be/_z5s9AULozw" target="_blank">LINE Pay demo</a>
+          <a href="https://hinatanofan.s3-ap-northeast-1.amazonaws.com/resume/paku_pay.png" target="_blank">多元支付整合頁面</a></pre>
+          </div>
     - role: 資深軟體專案工程師
       time: 2011 - 2018
       company: 宏碁 (acer)
