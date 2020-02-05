@@ -188,15 +188,15 @@ publications:
     #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #  bibendum fringilla a eu lectus.
     papers:
-      - title: 透過雲端預測最佳化行動裝置記憶體之效能
-        #link: "#"
-        authors: 2014
-        #conference: Addison-Wesley, 1968
+      - title: 將電子裝置的記憶體的效能最佳化的方法及使用該方法的通訊系統
+        link: "https://twpat4.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201610675"
+        authors: CHAO, SHU WEI, HU, PEI CHUN (2014)
+        conference: METHOD FOR OPTIMIZING THE PERFORMANCE OF MEMORY ON AN ELECTRONIC DEVICE AND COMMUNICATION SYSTEM USING THE SAME
 
-      - title: 機械手臂智慧追蹤定位之方法
-        #link: "#"
-        authors: 2018
-        #conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: 機械手臂系統及其操作方法
+        link: "https://twpat4.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201924879"
+        authors: CHAO, SHU WEI, CHENG, WEN SEN, TU, MING HSUAN (2017)
+        conference: "ROBOT ARM SYSTEM AND METHOD OF OPERATION THE SAME"
 skills:
     title: 技能
     toolset:
