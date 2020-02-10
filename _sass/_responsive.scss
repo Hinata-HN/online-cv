@@ -24,6 +24,12 @@
         margin-bottom: 0;
     }
 
+    iframe{
+        width: min-content;
+        height: min-content;
+        position: inherit;
+        margin-left: -50px;
+    }
 
 }
 /* Small devices (tablets, 768px and up) */
